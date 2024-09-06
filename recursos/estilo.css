@@ -1,0 +1,33 @@
+p{
+    color: brown;
+    font-family: 'Times New Roman';
+}
+h1{
+    color: aquamarine;
+    font-family: Arial;
+    text-align: center;
+}
+#intro
+{
+    color: blue;
+    font-size: 20px;
+    background: none;
+}
+#logo{
+    width: 150px;
+    border-radius: 10px;
+}
+.highlight{
+    color: red;
+    font-weight: bold;
+    background: none;
+}
+.importante{
+    font-weight: bold;
+    color: red;
+}
+a{
+    color: blue;
+    text-decoration: none;
+    background: none;
+}

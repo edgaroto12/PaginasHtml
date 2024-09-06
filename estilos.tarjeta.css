@@ -1,0 +1,61 @@
+head{
+    background-color: #222;
+    padding: 1px;
+}
+header h1{
+    color: #fff;
+}
+
+body{
+    background-color:rgb(19, 143, 122);/*aplica color de fondo*/
+    margin: 0;/*elimina el margen que viene predeterminado*/
+    padding: 0;/*eliminar los espacios que vienen por defecto*/
+}
+.container{
+    display: flex;/* organiza los hijos de forma flexible*/
+    flex-direction: column;/*alinea los elementos en forma de columna*/
+    align-items: center;/*centra los articulos */
+    gap: 20px;/*Ejera los espacios entre los articulos*/
+}
+section article{
+    transition: box-shadow 0.3s ease;/*Aplicar una transcicion suabe de 0.3s*/
+    background-color: #ffff;/*establece color blanco*/
+    margin: 16px o;/*margen vertical de 16px*/
+    border-radius: 8px;/* redondea esquinas del article o articulo*/
+    padding: 4px 0;/*espacios*/
+    cursor: pointer;/*cambia el estilo del curdsor*/
+}
+/* Cuando el usuario pasa el cursor sobre un elemento*/
+section article:hover{
+    box-shadow: 0 1.6px 6.4px rgb(26, 27, 26, 0.3);/*estilo de sombra sobre el elemento*/
+}
+section article h2, section article p{
+    margin: 6px;
+}
+footer{
+    background-color: #222;
+    padding: 48px;
+    color: #ffff;
+}
+footer p{
+    margin: 0px;
+}
+footer section{
+    float: right;
+    margin: 0;
+}
+footer a{
+    transition: color 0.3s ease;
+    color: #ffff;
+    text-decoration: none;
+}
+footer a:hover{
+    color: brown;
+}
+header{
+    background-color: #222;
+    padding: 1px;
+}
+header h1{
+    color: #ffff;
+}
